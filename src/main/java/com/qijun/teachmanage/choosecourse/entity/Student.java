@@ -8,12 +8,15 @@ public class Student {
     private String stuName;
     private String stuSex;
 
+    private Classes classes;
+
     public Student(){}
 
-    public Student(int stuId, String stuName, String stuSex) {
+    public Student(int stuId, String stuName, String stuSex, Classes classes) {
         this.stuId = stuId;
         this.stuName = stuName;
         this.stuSex = stuSex;
+        this.classes = classes;
     }
 
     public int getStuId() {
@@ -40,12 +43,21 @@ public class Student {
         this.stuSex = stuSex;
     }
 
+    public Classes getClasses() {
+        return classes;
+    }
+
+    public void setClasses(Classes classes) {
+        this.classes = classes;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "stuId=" + stuId +
                 ", stuName='" + stuName + '\'' +
                 ", stuSex='" + stuSex + '\'' +
+                ", classes=" + classes +
                 '}';
     }
 }
