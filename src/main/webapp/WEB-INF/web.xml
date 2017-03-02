@@ -35,30 +35,41 @@
      -->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/spring-*.xml</param-value>
+      <param-value>classpath:spring/spring-web.xml</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>mvc-dispatcher</servlet-name>
     <!-- 默认匹配所有的请求 -->
-    <url-pattern>/</url-pattern>
+    <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 
-<!--
-  &lt;!&ndash; Spring监听器 &ndash;&gt;
+  <!-- Spring配置 -->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
-  &lt;!&ndash; 防止Spring内存溢出监听器 &ndash;&gt;
-  <listener>
-    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
-  </listener>
 
-  &lt;!&ndash; 配置SESSION超时，单位是分钟 &ndash;&gt;
-  <session-config>
-    <session-timeout>24</session-timeout>
-  </session-config>
--->
+  <!-- 指定Spring Bean的配置文件所在目录。默认配置在WEB-INF目录下 -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:spring/spring-dao.xml</param-value>
+  </context-param>
+
+  <!--
+    &lt;!&ndash; Spring监听器 &ndash;&gt;
+    <listener>
+      <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    &lt;!&ndash; 防止Spring内存溢出监听器 &ndash;&gt;
+    <listener>
+      <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+    </listener>
+
+    &lt;!&ndash; 配置SESSION超时，单位是分钟 &ndash;&gt;
+    <session-config>
+      <session-timeout>24</session-timeout>
+    </session-config>
+  -->
 
 
 </web-app>
