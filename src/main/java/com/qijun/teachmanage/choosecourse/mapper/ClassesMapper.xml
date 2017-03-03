@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qijun.teachmanage.choosecourse.mapper.ClassesMapper" >
+
+    <resultMap id="BaseResultMap" type="com.qijun.teachmanage.choosecourse.entity.Classes">
+        <id column="cla_id" property="claId"/>
+        <result column="cla_name" property="claName"/>
+        <result column="cla_num" property="claNum"/>
+    </resultMap>
+
+
+</mapper>

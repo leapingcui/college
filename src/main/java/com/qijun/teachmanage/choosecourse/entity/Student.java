@@ -1,5 +1,9 @@
 package com.qijun.teachmanage.choosecourse.entity;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.Date;
+
 /**
  * Created by Administrator on 2017/2/27.
  */
@@ -8,14 +12,18 @@ public class Student {
     private String stuName;
     private String stuSex;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date stuBirth;
+
     private Classes classes;
 
     public Student(){}
 
-    public Student(int stuId, String stuName, String stuSex, Classes classes) {
+    public Student(int stuId, String stuName, String stuSex, Date stuBirth, Classes classes) {
         this.stuId = stuId;
         this.stuName = stuName;
         this.stuSex = stuSex;
+        this.stuBirth = stuBirth;
         this.classes = classes;
     }
 
@@ -43,6 +51,14 @@ public class Student {
         this.stuSex = stuSex;
     }
 
+    public Date getStuBirth() {
+        return stuBirth;
+    }
+
+    public void setStuBirth(Date stuBirth) {
+        this.stuBirth = stuBirth;
+    }
+
     public Classes getClasses() {
         return classes;
     }
@@ -57,6 +73,7 @@ public class Student {
                 "stuId=" + stuId +
                 ", stuName='" + stuName + '\'' +
                 ", stuSex='" + stuSex + '\'' +
+                ", stuBirth=" + stuBirth +
                 ", classes=" + classes +
                 '}';
     }
