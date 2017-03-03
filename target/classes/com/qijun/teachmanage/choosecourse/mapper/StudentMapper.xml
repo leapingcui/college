@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qijun.teachmanage.choosecourse.mapper.StudentMapper" >
+
+    <resultMap id="BaseResultMap" type="com.qijun.teachmanage.choosecourse.entity.Student">
+        <id column="stu_id" property="stuId"/>
+        <result column="stu_name" property="stuName"/>
+        <result column="stu_sex" property="stuSex"/>
+        <result column="stu_birth" property="stuBirth"/>
+        <association property="classes" resultMap="com.qijun.teachmanage.choosecourse.mapper.ClassesMapper.BaseResultMap"/>
+    </resultMap>
+
+<!--
+    <sql id="Base_Column_List">
+        `stu_id`,`stu_name`,`stu_sex`
+    </sql>
+    &lt;!&ndash;引用sql片段&ndash;&gt;
+    <include refid="Base_Column_List"/>
+-->
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        SELECT
+        s.stu_id,s.stu_name,s.stu_sex,s.stu_birth,c.cla_id,c.cla_name,c.cla_num
+        FROM student s,classes c
+        WHERE s.cla_id = c.cla_id
+        ORDER BY s.stu_id
+    </select>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="int">
+        SELECT
+        s.stu_id,s.stu_name,s.stu_sex,s.stu_birth,c.cla_id,c.cla_name,c.cla_num
+        FROM student s,classes c
+        WHERE s.cla_id = c.cla_id
+        AND s.stu_id=#{stuId}
+    </select>
+
+    <insert id="insert" parameterType="Student">
+        INSERT INTO student (`stu_id`,`stu_name`,`stu_sex`,`stu_birth`,`cla_id`)
+        VALUES (#{stuId},#{stuName},#{stuSex},#{stuBirth},#{classes.claId})
+    </insert>
+
+    <update id="update" parameterType="Student">
+        UPDATE student
+        SET
+        `stu_name` = #{stuName},
+          `stu_sex` = #{stuSex},
+          `stu_birth` = #{stuBirth},
+          `cla_id` = #{classes.claId}
+        WHERE `stu_id` = #{stuId}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="int">
+         DELETE FROM student
+        WHERE `stu_id` = #{stuId}
+    </delete>
+
+</mapper>
