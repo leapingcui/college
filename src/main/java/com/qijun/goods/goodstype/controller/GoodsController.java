@@ -1,6 +1,8 @@
 package com.qijun.goods.goodstype.controller;
 
 import com.qijun.goods.goodstype.entity.Goods;
+import com.qijun.goods.goodstype.entity.GoodsCommon;
+import com.qijun.goods.goodstype.service.GoodsCommonService;
 import com.qijun.goods.goodstype.service.GoodsService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,9 @@ public class GoodsController {
     @Autowired
     private GoodsService goodsService;
 
+    @Autowired
+    private GoodsCommonService goodsCommonService;
+
     @RequestMapping("/showAllGoodses.do")
     public String showAllGoodses(Model model){
         List<Goods> goodses = goodsService.selectAll();
@@ -34,6 +39,25 @@ public class GoodsController {
         Goods goods = goodsService.selectByPrimaryKey(gsId);
         model.addAttribute("goods", goods);
         return "view/goods/goodstype/goodstypeDetail";
+    }
+
+    @RequestMapping("/insertUI.do")
+    public String insertUI(){
+        return "view/goods/goodstype/goodstypeInsertUI";
+    }
+
+    @RequestMapping("/insert.do")
+    public String insert(Goods goods){
+        logger.info("接受到的数据啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊:" + goods);
+//        GoodsCommon goodsCommon = goods.getGoodsCommon();
+//        logger.info("goodsCommon哈哈哈哈哈哈哈哈哈哈哈哈:" + goodsCommon);
+/*
+        long gcTypeId = goodsCommonService.insert(goodsCommon);
+        logger.info("id嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻:" + gcTypeId);
+        goodsService.insert(goods);
+*/
+
+        return "index";
     }
 
 

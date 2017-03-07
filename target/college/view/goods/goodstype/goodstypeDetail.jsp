@@ -36,7 +36,7 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="${webRoot}/index2.html" class="logo">
+        <a href="#" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>摩</b>尔</span>
             <!-- logo for regular state and mobile devices -->
@@ -258,9 +258,9 @@
                         <small>具体信息</small>
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> 主页</a></li>
-                        <li><a href="#">类别</a></li>
-                        <li class="active">详细</li>
+                        <li><a href="${webRoot}/index.jsp"><i class="fa fa-dashboard"></i> 主页</a></li>
+                        <li><a href="#">设备管理</a></li>
+                        <li class="active">设备分类</li>
                     </ol>
                 </section>
 

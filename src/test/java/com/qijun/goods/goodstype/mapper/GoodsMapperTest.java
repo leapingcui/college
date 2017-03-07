@@ -34,7 +34,8 @@ public class GoodsMapperTest extends BaseTest{
     @Test
     public void testInsert() throws Exception {
         GoodsCommon goodsCommon = new GoodsCommon();
-        goodsCommon.setGcTypeId(2);
+        long num = (long)2;
+        goodsCommon.setGcTypeId(num);
 
         Goods goods = new Goods();
         goods.setGoodsCommon(goodsCommon);
@@ -47,10 +48,12 @@ public class GoodsMapperTest extends BaseTest{
     public void testUpdate() throws Exception {
 
         GoodsCommon goodsCommon = new GoodsCommon();
-        goodsCommon.setGcTypeId(3);
+        long num = (long)3;
+        goodsCommon.setGcTypeId(num);
 
         Goods goods = new Goods();
-        goods.setGsId(8);
+        long num2 = (long)8;
+        goods.setGsId(num2);
         goods.setGoodsCommon(goodsCommon);
         goods.setGsTrueId("OOO666");
 

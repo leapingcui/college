@@ -15,7 +15,6 @@
     </resultMap>
 
     <sql id="goods_common_list">
-        gc_type_id,
         gc_name,
         gc_head_type,
         gc_type,
@@ -26,11 +25,11 @@
         gc_history_receive_num
     </sql>
 
-    <insert id="insert" parameterType="GoodsCommon">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="gcTypeId" parameterType="GoodsCommon">
         INSERT INTO goods_common
         ( <include refid="goods_common_list"/>  )
         VALUES
-        (#{gcTypeId},#{gcName},#{gcHeadType},#{gcType},#{gcCountingUnit},#{gcIsIntCounting},#{gcStockQuantity},
+        (#{gcName},#{gcHeadType},#{gcType},#{gcCountingUnit},#{gcIsIntCounting},#{gcStockQuantity},
         #{gcWarnStockQuantity},#{gcHistoryReceiveNum})
     </insert>
 

@@ -10,7 +10,7 @@ import java.util.List;
  */
 public interface GoodsCommonMapper {
 
-    int insert(GoodsCommon goodsCommon);
+    long insert(GoodsCommon goodsCommon);
 
     int update(GoodsCommon goodsCommon);
 

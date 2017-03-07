@@ -36,7 +36,7 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="${webRoot}/index2.html" class="logo">
+        <a href="#" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>摩</b>尔</span>
             <!-- logo for regular state and mobile devices -->
@@ -233,6 +233,7 @@
                     <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
                 </div>
             </div>
+
             <!-- 搜索框，不知道有没有必要-->
             <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
@@ -258,9 +259,9 @@
                         <small>具体信息</small>
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> 主页</a></li>
-                        <li><a href="#">类别</a></li>
-                        <li class="active">详细</li>
+                        <li><a href="${webRoot}/index.jsp"><i class="fa fa-dashboard"></i> 主页</a></li>
+                        <li>设备管理</li>
+                        <li class="active">设备种类</li>
                     </ol>
                 </section>
 
@@ -274,6 +275,9 @@
                                 </div>
                                 <!-- /.box-header -->
                                 <div class="box-body">
+                                    <a href="${webRoot}/goodsController/insertUI.do">新增</a>
+                                    <a href="#">导入</a>
+                                    <a href="#">导出</a>
                                     <table id="example1" class="table table-bordered table-striped">
                                         <thead>
                                         <tr>

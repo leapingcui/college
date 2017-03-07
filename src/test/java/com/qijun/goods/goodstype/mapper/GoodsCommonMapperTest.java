@@ -4,6 +4,7 @@ import com.qijun.goods.goodstype.BaseTest;
 import com.qijun.goods.goodstype.entity.GoodsCommon;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import sun.util.resources.cldr.ga.LocaleNames_ga;
 
 /**
  * Created by Administrator on 2017/3/5.
@@ -24,8 +25,9 @@ public class GoodsCommonMapperTest extends BaseTest {
     @Test
     public void testUpdate() throws Exception {
         GoodsCommon goodsCommon = new GoodsCommon();
-        goodsCommon.setGcTypeId(4);
-        goodsCommon.setGcName("笔记本本");
+        long num = (long)4;
+        goodsCommon.setGcTypeId(num);
+        goodsCommon.setGcName("笔记本本本");
 
         goodsCommonMapper.update(goodsCommon);
     }

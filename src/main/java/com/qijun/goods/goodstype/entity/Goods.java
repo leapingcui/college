@@ -1,5 +1,8 @@
 package com.qijun.goods.goodstype.entity;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 /**
@@ -7,66 +10,48 @@ import java.util.Date;
  */
 public class Goods {
 
-    private long gsId;                      //物品编号，流水号
+    private Long gsId;                      //物品编号，流水号
 
-//    private long gsTypeId;                  //物品种类编号，指向goods_common的gc_type_id
+//    private Long gsTypeId;                  //物品种类编号，指向goods_common的gc_type_id
     private GoodsCommon goodsCommon;        //在表中字段gs_type_id
                                             //在表goods中通过gs_type_id,指向goods_common的gc_type_id
 
     private String gsTrueId;                //物品id
     private String gsSpeci;                 //物品规格specification
-    private float gsTotalQuantity;          //总数量
-    private float gsLeftQuantity;           //剩余数量
+
+    private Float gsTotalQuantity ;          //总数量
+    private Float gsLeftQuantity;           //剩余数量
     private String gsBatchNum;              //批次号
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date gsProduceDate;             //生产日期
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date gsBuyDate;                 //购买日期
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date gsCheckDate;               //验收日期
-    private float gsPurchasePrice;          //购买价
-    private float gsDepreciationPrice;      //折旧价
+    private Float gsPurchasePrice;          //购买价
+    private Float gsDepreciationPrice;      //折旧价
     private String gsManufacturer;          //制造商
     private String gsSupplier;              //供应商
     private String gsDepartment;            //所属部门，指向部门表
     private String gsReceivePersonId;       //领用人编号，指向员工表
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date gsReceiveDate;             //领用日期
     private String gsAdminId;               //管理人编号，指向员工表
-    private int gsCalibrationCycle;         //校准周期
+    private Integer gsCalibrationCycle;         //校准周期
     private String gsWarrantyPeriod;        //保修期，比如一年
     private String gsStorePosition;         //保存位置
 
     public Goods(){}
 
-    public Goods(long gsId, GoodsCommon goodsCommon, String gsTrueId, String gsSpeci, float gsTotalQuantity, float gsLeftQuantity,
-                 String gsBatchNum, Date gsProduceDate, Date gsBuyDate, Date gsCheckDate, float gsPurchasePrice,
-                 float gsDepreciationPrice, String gsManufacturer, String gsSupplier, String gsDepartment, String gsReceivePersonId,
-                 Date gsReceiveDate, String gsAdminId, int gsCalibrationCycle, String gsWarrantyPeriod, String gsStorePosition) {
-        this.gsId = gsId;
-        this.goodsCommon = goodsCommon;
-        this.gsTrueId = gsTrueId;
-        this.gsSpeci = gsSpeci;
-        this.gsTotalQuantity = gsTotalQuantity;
-        this.gsLeftQuantity = gsLeftQuantity;
-        this.gsBatchNum = gsBatchNum;
-        this.gsProduceDate = gsProduceDate;
-        this.gsBuyDate = gsBuyDate;
-        this.gsCheckDate = gsCheckDate;
-        this.gsPurchasePrice = gsPurchasePrice;
-        this.gsDepreciationPrice = gsDepreciationPrice;
-        this.gsManufacturer = gsManufacturer;
-        this.gsSupplier = gsSupplier;
-        this.gsDepartment = gsDepartment;
-        this.gsReceivePersonId = gsReceivePersonId;
-        this.gsReceiveDate = gsReceiveDate;
-        this.gsAdminId = gsAdminId;
-        this.gsCalibrationCycle = gsCalibrationCycle;
-        this.gsWarrantyPeriod = gsWarrantyPeriod;
-        this.gsStorePosition = gsStorePosition;
-    }
-
-    public long getGsId() {
+    public Long getGsId() {
         return gsId;
     }
 
-    public void setGsId(long gsId) {
+    public void setGsId(Long gsId) {
         this.gsId = gsId;
     }
 
@@ -94,19 +79,19 @@ public class Goods {
         this.gsSpeci = gsSpeci;
     }
 
-    public float getGsTotalQuantity() {
+    public Float getGsTotalQuantity() {
         return gsTotalQuantity;
     }
 
-    public void setGsTotalQuantity(float gsTotalQuantity) {
+    public void setGsTotalQuantity(Float gsTotalQuantity) {
         this.gsTotalQuantity = gsTotalQuantity;
     }
 
-    public float getGsLeftQuantity() {
+    public Float getGsLeftQuantity() {
         return gsLeftQuantity;
     }
 
-    public void setGsLeftQuantity(float gsLeftQuantity) {
+    public void setGsLeftQuantity(Float gsLeftQuantity) {
         this.gsLeftQuantity = gsLeftQuantity;
     }
 
@@ -142,19 +127,19 @@ public class Goods {
         this.gsCheckDate = gsCheckDate;
     }
 
-    public float getGsPurchasePrice() {
+    public Float getGsPurchasePrice() {
         return gsPurchasePrice;
     }
 
-    public void setGsPurchasePrice(float gsPurchasePrice) {
+    public void setGsPurchasePrice(Float gsPurchasePrice) {
         this.gsPurchasePrice = gsPurchasePrice;
     }
 
-    public float getGsDepreciationPrice() {
+    public Float getGsDepreciationPrice() {
         return gsDepreciationPrice;
     }
 
-    public void setGsDepreciationPrice(float gsDepreciationPrice) {
+    public void setGsDepreciationPrice(Float gsDepreciationPrice) {
         this.gsDepreciationPrice = gsDepreciationPrice;
     }
 
@@ -206,11 +191,11 @@ public class Goods {
         this.gsAdminId = gsAdminId;
     }
 
-    public int getGsCalibrationCycle() {
+    public Integer getGsCalibrationCycle() {
         return gsCalibrationCycle;
     }
 
-    public void setGsCalibrationCycle(int gsCalibrationCycle) {
+    public void setGsCalibrationCycle(Integer gsCalibrationCycle) {
         this.gsCalibrationCycle = gsCalibrationCycle;
     }
 

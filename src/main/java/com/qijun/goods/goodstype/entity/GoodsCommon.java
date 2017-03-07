@@ -5,36 +5,23 @@ package com.qijun.goods.goodstype.entity;
  */
 public class GoodsCommon {
 
-    private long gcTypeId;                          //物品种类编号
+    private Long gcTypeId;                          //物品种类编号
     private String gcName;                          //物品名称
     private String gcHeadType;                      //物品大类，如设备、试剂、耗材、标准件
     private String gcType;                          //物品类型
     private String gcCountingUnit;                  //物品计数单位
     private String gcIsIntCounting;                 //物品是否是整数计数
-    private float gcStockQuantity;                  //物品库存数量
-    private float gcWarnStockQuantity;               //物品警戒库存数量
-    private float gcHistoryReceiveNum;              //物品历史领用数量
+    private Float gcStockQuantity;                  //物品库存数量
+    private Float gcWarnStockQuantity;               //物品警戒库存数量
+    private Float gcHistoryReceiveNum;              //物品历史领用数量
 
     public GoodsCommon(){}
 
-    public GoodsCommon(long gcTypeId, String gcName, String gcHeadType, String gcType, String gcCountingUnit,
-                       String gcIsIntCounting, float gcStockQuantity, float gcWarnStockQuantity, float gcHistoryReceiveNum) {
-        this.gcTypeId = gcTypeId;
-        this.gcName = gcName;
-        this.gcHeadType = gcHeadType;
-        this.gcType = gcType;
-        this.gcCountingUnit = gcCountingUnit;
-        this.gcIsIntCounting = gcIsIntCounting;
-        this.gcStockQuantity = gcStockQuantity;
-        this.gcWarnStockQuantity = gcWarnStockQuantity;
-        this.gcHistoryReceiveNum = gcHistoryReceiveNum;
-    }
-
-    public long getGcTypeId() {
+    public Long getGcTypeId() {
         return gcTypeId;
     }
 
-    public void setGcTypeId(long gcTypeId) {
+    public void setGcTypeId(Long gcTypeId) {
         this.gcTypeId = gcTypeId;
     }
 
@@ -78,27 +65,27 @@ public class GoodsCommon {
         this.gcIsIntCounting = gcIsIntCounting;
     }
 
-    public float getGcStockQuantity() {
+    public Float getGcStockQuantity() {
         return gcStockQuantity;
     }
 
-    public void setGcStockQuantity(float gcStockQuantity) {
+    public void setGcStockQuantity(Float gcStockQuantity) {
         this.gcStockQuantity = gcStockQuantity;
     }
 
-    public float getGcWarnStockQuantity() {
+    public Float getGcWarnStockQuantity() {
         return gcWarnStockQuantity;
     }
 
-    public void setGcWarnStockQuantity(float gcWarnStockQuantity) {
+    public void setGcWarnStockQuantity(Float gcWarnStockQuantity) {
         this.gcWarnStockQuantity = gcWarnStockQuantity;
     }
 
-    public float getGcHistoryReceiveNum() {
+    public Float getGcHistoryReceiveNum() {
         return gcHistoryReceiveNum;
     }
 
-    public void setGcHistoryReceiveNum(float gcHistoryReceiveNum) {
+    public void setGcHistoryReceiveNum(Float gcHistoryReceiveNum) {
         this.gcHistoryReceiveNum = gcHistoryReceiveNum;
     }
 
