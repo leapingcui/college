@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qijun.goods.goodstype.mapper.GoodsCommonMapper" >
+
+    <resultMap id="BaseResultMap" type="com.qijun.goods.goodstype.entity.GoodsCommon">
+        <id column="gc_type_id" property="gcTypeId"/>
+        <result column="gc_name" property="gcName"/>
+        <result column="gc_head_type" property="gcHeadType"/>
+        <result column="gc_type" property="gcType"/>
+        <result column="gc_counting_unit" property="gcCountingUnit"/>
+        <result column="gc_is_int_counting" property="gcIsIntCounting"/>
+        <result column="gc_stock_quantity" property="gcStockQuantity"/>
+        <result column="gc_warn_stock_quantity" property="gcWarnStockQuantity"/>
+        <result column="gc_history_receive_num" property="gcHistoryReceiveNum"/>
+    </resultMap>
+
+    <sql id="goods_common_list">
+        gc_type_id,
+        gc_name,
+        gc_head_type,
+        gc_type,
+        gc_counting_unit,
+        gc_is_int_counting,
+        gc_stock_quantity,
+        gc_warn_stock_quantity,
+        gc_history_receive_num
+    </sql>
+
+    <insert id="insert" parameterType="GoodsCommon">
+        INSERT INTO goods_common
+        ( <include refid="goods_common_list"/>  )
+        VALUES
+        (#{gcTypeId},#{gcName},#{gcHeadType},#{gcType},#{gcCountingUnit},#{gcIsIntCounting},#{gcStockQuantity},
+        #{gcWarnStockQuantity},#{gcHistoryReceiveNum})
+    </insert>
+
+    <update id="update" parameterType="GoodsCommon">
+        UPDATE goods_common
+        SET
+        gc_name = #{gcName},
+        gc_head_type = #{gcHeadType},
+        gc_type = #{gcType},
+        gc_counting_unit = #{gcCountingUnit},
+        gc_is_int_counting = #{gcIsIntCounting},
+        gc_stock_quantity = #{gcStockQuantity},
+        gc_warn_stock_quantity = #{gcWarnStockQuantity},
+        gc_history_receive_num = #{gcHistoryReceiveNum}
+        WHERE gc_type_id = #{gcTypeId}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="long">
+        DELETE FROM goods_common
+        WHERE gc_type_id = #{gcTypeId}
+    </delete>
+
+
+
+</mapper>

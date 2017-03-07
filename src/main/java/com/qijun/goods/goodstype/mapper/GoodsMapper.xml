@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qijun.goods.goodstype.mapper.GoodsMapper">
+
+    <resultMap id="BaseResultMap" type="com.qijun.goods.goodstype.entity.Goods">
+        <id column="gs_id" property="gsId"/>
+        <result column="gs_true_id" property="gsTrueId"/>
+        <result column="gs_speci" property="gsSpeci"/>
+        <result column="gs_total_quantity" property="gsTotalQuantity"/>
+        <result column="gs_left_quantity" property="gsLeftQuantity"/>
+        <result column="gs_batch_num" property="gsBatchNum"/>
+        <result column="gs_produce_date" property="gsProduceDate"/>
+        <result column="gs_buy_date" property="gsBuyDate"/>
+        <result column="gs_check_date" property="gsCheckDate"/>
+        <result column="gs_purchase_price" property="gsPurchasePrice"/>
+        <result column="gs_depreciation_price" property="gsDepreciationPrice"/>
+        <result column="gs_manufacturer" property="gsManufacturer"/>
+        <result column="gs_supplier" property="gsSupplier"/>
+        <result column="gs_department" property="gsDepartment"/>
+        <result column="gs_receive_person_id" property="gsReceivePersonId"/>
+        <result column="gs_receive_date" property="gsReceiveDate"/>
+        <result column="gs_admin_id" property="gsAdminId"/>
+        <result column="gs_calibration_cycle" property="gsCalibrationCycle"/>
+        <result column="gs_warranty_period" property="gsWarrantyPeriod"/>
+        <result column="gs_store_position" property="gsStorePosition"/>
+        <association property="goodsCommon" resultMap="com.qijun.goods.goodstype.mapper.GoodsCommonMapper.BaseResultMap"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        goods.gs_id,
+        goods.gs_true_id,
+        goods.gs_speci,
+        goods.gs_total_quantity,
+        goods.gs_left_quantity,
+        goods.gs_batch_num,
+        goods.gs_produce_date,
+        goods.gs_buy_date,
+        goods.gs_check_date,
+        goods.gs_purchase_price,
+        goods.gs_depreciation_price,
+        goods.gs_manufacturer,
+        goods.gs_supplier,
+        goods.gs_department,
+        goods.gs_receive_person_id,
+        goods.gs_receive_date,
+        goods.gs_admin_id,
+        goods.gs_calibration_cycle,
+        goods.gs_warranty_period,
+        goods.gs_store_position,
+
+        goods_common.gc_type_id,
+        goods_common.gc_name,
+        goods_common.gc_head_type,
+        goods_common.gc_type,
+        goods_common.gc_counting_unit,
+        goods_common.gc_is_int_counting,
+        goods_common.gc_stock_quantity,
+        goods_common.gc_warn_stock_quantity,
+        goods_common.gc_history_receive_num
+    </sql>
+
+    <sql id="goods_list">
+        gs_id,
+        gs_type_id,
+        gs_true_id,
+        gs_speci,
+        gs_total_quantity,
+        gs_left_quantity,
+        gs_batch_num,
+        gs_produce_date,
+        gs_buy_date,
+        gs_check_date,
+        gs_purchase_price,
+        gs_depreciation_price,
+        gs_manufacturer,
+        gs_supplier,
+        gs_department,
+        gs_receive_person_id,
+        gs_receive_date,
+        gs_admin_id,
+        gs_calibration_cycle,
+        gs_warranty_period,
+        gs_store_position
+      </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM goods,goods_common
+        WHERE goods.gs_type_id = goods_common.gc_type_id
+        ORDER BY goods.gs_type_id
+    </select>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="long">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM goods,goods_common
+        WHERE goods.gs_type_id = goods_common.gc_type_id
+        AND goods.gs_id=#{gsId}
+    </select>
+
+    <insert id="insert" parameterType="Goods">
+        INSERT INTO goods
+         ( <include refid="goods_list"/> )
+        VALUES
+        (#{gsId},#{goodsCommon.gcTypeId},#{gsTrueId},#{gsSpeci},#{gsTotalQuantity},#{gsLeftQuantity},#{gsBatchNum},#{gsProduceDate},
+        #{gsBuyDate}, #{gsCheckDate},#{gsPurchasePrice},#{gsDepreciationPrice},#{gsManufacturer},#{gsSupplier},#{gsDepartment},
+        #{gsReceivePersonId},#{gsReceiveDate},#{gsAdminId},#{gsCalibrationCycle},#{gsWarrantyPeriod},#{gsStorePosition})
+    </insert>
+
+    <update id="update" parameterType="Goods">
+        UPDATE goods
+        SET
+            gs_type_id = #{goodsCommon.gcTypeId},
+            gs_true_id = #{gsTrueId},
+            gs_speci = #{gsSpeci},
+            gs_total_quantity = #{gsTotalQuantity},
+            gs_left_quantity = #{gsLeftQuantity},
+            gs_batch_num = #{gsBatchNum},
+            gs_produce_date = #{gsProduceDate},
+            gs_buy_date = #{gsBuyDate},
+            gs_check_date = #{gsCheckDate},
+            gs_purchase_price = #{gsPurchasePrice},
+            gs_depreciation_price = #{gsDepreciationPrice},
+            gs_manufacturer = #{gsManufacturer},
+            gs_supplier = #{gsSupplier},
+            gs_department = #{gsDepartment},
+            gs_receive_person_id = #{gsReceivePersonId},
+            gs_receive_date = #{gsReceiveDate},
+            gs_admin_id = #{gsAdminId},
+            gs_calibration_cycle = #{gsCalibrationCycle},
+            gs_warranty_period = #{gsWarrantyPeriod},
+            gs_store_position = #{gsStorePosition}
+        WHERE gs_id = #{gsId}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="long">
+         DELETE FROM goods
+        WHERE gs_id = #{gsId}
+    </delete>
+
+</mapper>

@@ -18,7 +18,8 @@
 
 	<!--别名不支持通配符-->
 	<typeAliases>
-		<package name="com.qijun.teachmanage.choosecourse.entity"></package>
+		<package name="com.qijun.goods.goodstype.entity"></package>
+		<package name="com.qijun.login.login.entity"></package>
 	</typeAliases>
 
 	<mappers>

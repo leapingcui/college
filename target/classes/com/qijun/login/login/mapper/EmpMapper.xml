@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qijun.login.login.mapper.EmpMapper" >
+
+    <resultMap id="BaseResultMap" type="com.qijun.login.login.entity.Emp">
+        <id column="emp_id" property="empId"/>
+        <result column="emp_pwd" property="empPwd"/>
+        <result column="emp_name" property="empName"/>
+        <result column="emp_sex" property="empSex"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        SELECT
+        emp_id,emp_pwd,emp_name,emp_sex
+        FROM emp
+        ORDER BY emp_id
+    </select>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="int">
+        SELECT
+        emp_id,emp_pwd,emp_name,emp_sex
+        FROM emp
+        WHERE emp_id = #{empId}
+    </select>
+
+    <insert id="insert" parameterType="Emp">
+        INSERT INTO student (emp_id,emp_pwd,emp_name,emp_sex)
+        VALUES (#{empId},#{empPwd},#{empName},#{empSex})
+    </insert>
+
+    <update id="update" parameterType="Emp">
+        UPDATE emp
+        SET
+        `emp_pwd` = #{empPwd},
+        `emp_name` = #{empName},
+        `emp_sex` = #{empSex}
+        WHERE `emp_id` = #{empId}
+    </update>
+
+    <delete id="deleteByPrimaryKey" parameterType="int">
+        DELETE FROM emp
+        WHERE `emp_id` = #{empId}
+    </delete>
+
+</mapper>
