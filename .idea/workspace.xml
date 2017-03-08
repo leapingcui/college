@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d431e75-32c3-485b-95f7-97cd53059999" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsCommonController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsService.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsService.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsMapperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsMapperTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstype.jsp" afterPath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstype.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstypeDetail.jsp" afterPath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstypeDetail.jsp" />
     </list>
     <ignored path="college.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,14 +58,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="e#1436#1437#0" expanded="true" />
                 <element signature="e#1499#1500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsCommonServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -531,6 +563,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="college" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="college" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qijun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goodstype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1382,7 +1456,7 @@
       <workItem from="1488760033365" duration="37550000" />
       <workItem from="1488847505304" duration="4020000" />
       <workItem from="1488869504254" duration="25703000" />
-      <workItem from="1488933546288" duration="10306000" />
+      <workItem from="1488933546288" duration="11258000" />
     </task>
     <task id="LOCAL-00001" summary="大整改！一个简单的CRUD基本完成。2017-03-02">
       <created>1488428550847</created>
@@ -1405,7 +1479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488899468974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实现了编辑和删除操作。编辑时，一定要在编辑的表单页面加隐藏字段id,将id传过去；删除时，由于db中有外键约束，所以需先删除goods表记录，再删除goods_common表字段。">
+      <created>1488944459306</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488944459306</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1441,11 +1522,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216143000" />
+    <option name="totallyTimeSpent" value="217095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
@@ -1530,7 +1611,8 @@
     <MESSAGE value="大整改！一个简单的CRUD基本完成。2017-03-02" />
     <MESSAGE value="小整改，加入多表" />
     <MESSAGE value="解决新增时springmvc封装表单数据时String到float出错，在实体类中类型都写成包装类型&#10;Float、Integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决新增时springmvc封装表单数据时String到float出错，在实体类中类型都写成包装类型&#10;Float、Integer" />
+    <MESSAGE value="实现了编辑和删除操作。编辑时，一定要在编辑的表单页面加隐藏字段id,将id传过去；删除时，由于db中有外键约束，所以需先删除goods表记录，再删除goods_common表字段。" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了编辑和删除操作。编辑时，一定要在编辑的表单页面加隐藏字段id,将id传过去；删除时，由于db中有外键约束，所以需先删除goods表记录，再删除goods_common表字段。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1751,14 +1833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -1794,30 +1868,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1908,11 +1963,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="418">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="e#1436#1437#0" expanded="true" />
             <element signature="e#1499#1500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
           </folding>
         </state>
       </provider>

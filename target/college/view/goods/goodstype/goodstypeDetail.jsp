@@ -317,15 +317,15 @@
                                         </tr>
                                         <tr>
                                             <th>生产日期</th>
-                                            <td>${goods.gsProduceDate}</td>
+                                            <td><fmt:formatDate value="${goods.gsProduceDate}" pattern="yyyy-MM-dd"/> </td>
                                         </tr>
                                         <tr>
                                             <th>购买日期</th>
-                                            <td>${goods.gsBuyDate}</td>
+                                            <td><fmt:formatDate value="${goods.gsBuyDate}" pattern="yyyy-MM-dd"/> </td>
                                         </tr>
                                         <tr>
                                             <th>验收日期</th>
-                                            <td>${goods.gsCheckDate}</td>
+                                            <td><fmt:formatDate value="${goods.gsCheckDate}" pattern="yyyy-MM-dd"/> </td>
                                         </tr>
                                         <tr>
                                             <th>购买价</th>
@@ -353,7 +353,7 @@
                                         </tr>
                                         <tr>
                                             <th>领用日期</th>
-                                            <td>${goods.gsReceiveDate}</td>
+                                            <td><fmt:formatDate value="${goods.gsReceiveDate}" pattern="yyyy-MM-dd"/> </td>
                                         </tr>
                                         <tr>
                                             <th>管理人编号</th>

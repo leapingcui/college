@@ -47,7 +47,7 @@
         WHERE gc_type_id = #{gcTypeId}
     </update>
 
-    <delete id="deleteByPrimaryKey" parameterType="long">
+    <delete id="deleteByPrimaryKey" parameterType="Long">
         DELETE FROM goods_common
         WHERE gc_type_id = #{gcTypeId}
     </delete>
