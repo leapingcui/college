@@ -30,7 +30,7 @@ public class GoodsCommonServiceImpl implements GoodsCommonService {
         return goodsCommonMapper.update(goodsCommon);
     }
 
-    public int deleteByPrimaryKey(long gcTypeId) {
+    public int deleteByPrimaryKey(Long gcTypeId) {
         return goodsCommonMapper.deleteByPrimaryKey(gcTypeId);
     }
 }

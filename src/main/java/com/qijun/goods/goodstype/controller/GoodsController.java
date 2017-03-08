@@ -35,7 +35,7 @@ public class GoodsController {
     }
 
     @RequestMapping("/loadGoods.do")
-    public String loadGoods(Model model,long gsId){
+    public String loadGoods(Model model,Long gsId){
         Goods goods = goodsService.selectByPrimaryKey(gsId);
         model.addAttribute("goods", goods);
         return "view/goods/goodstype/goodstypeDetail";
@@ -48,16 +48,39 @@ public class GoodsController {
 
     @RequestMapping("/insert.do")
     public String insert(Goods goods){
-        logger.info("接受到的数据啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊:" + goods);
-//        GoodsCommon goodsCommon = goods.getGoodsCommon();
-//        logger.info("goodsCommon哈哈哈哈哈哈哈哈哈哈哈哈:" + goodsCommon);
-/*
-        long gcTypeId = goodsCommonService.insert(goodsCommon);
-        logger.info("id嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻:" + gcTypeId);
+        logger.info("接受到的数据:" + goods);
+        GoodsCommon goodsCommon = goods.getGoodsCommon();
+        logger.info("goodsCommon哈哈:" + goodsCommon);
+        goodsCommonService.insert(goodsCommon);
         goodsService.insert(goods);
-*/
 
-        return "index";
+        return "forward:showAllGoodses.do";
+    }
+
+    @RequestMapping("/updateUI.do")
+    public String updateUI(Model model, Long gsId){
+        Goods goods = goodsService.selectByPrimaryKey(gsId);
+        model.addAttribute("goods", goods);
+        return "view/goods/goodstype/goodstypeUpdateUI";
+    }
+
+    @RequestMapping("/update.do")
+    public String update(Goods goods){
+        logger.info("接收到的参数对象：" + goods);
+        GoodsCommon goodsCommon = goods.getGoodsCommon();
+        logger.info("goodsCommon" + goodsCommon);
+        goodsCommonService.update(goodsCommon);
+        goodsService.update(goods);
+        return "forward:showAllGoodses.do";
+    }
+
+    @RequestMapping("/delete.do")
+    public String delete(Long gsId){
+        Goods goods = goodsService.selectByPrimaryKey(gsId);
+        goodsService.deleteByPrimaryKey(gsId);
+        goodsCommonService.deleteByPrimaryKey(goods.getGoodsCommon().getGcTypeId());
+
+        return "forward:showAllGoodses.do";
     }
 
 

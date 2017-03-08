@@ -14,6 +14,6 @@ public interface GoodsCommonMapper {
 
     int update(GoodsCommon goodsCommon);
 
-    int deleteByPrimaryKey(long gcTypeId);
+    int deleteByPrimaryKey(Long gcTypeId);
 
 }

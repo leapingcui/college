@@ -26,7 +26,7 @@ public class GoodsMapperTest extends BaseTest{
 
     @Test
     public void testSelectByPrimaryKey() throws Exception {
-        int gsId = 2;
+        Long gsId = (long)2;
         Goods goods = goodsMapper.selectByPrimaryKey(gsId);
         System.out.println("物品对象啊啊啊" + goods);
     }
@@ -64,7 +64,8 @@ public class GoodsMapperTest extends BaseTest{
 
     @Test
     public void testDeleteGoodsByPrimaryKey() throws Exception {
-        goodsMapper.deleteByPrimaryKey(8);
+        Long num = (long) 8;
+        goodsMapper.deleteByPrimaryKey(num);
 
     }
 

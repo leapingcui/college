@@ -34,6 +34,7 @@ public class GoodsCommonMapperTest extends BaseTest {
 
     @Test
     public void testDeleteByPrimaryKey() throws Exception {
-        goodsCommonMapper.deleteByPrimaryKey(5);
+        Long num = (long) 5;
+        goodsCommonMapper.deleteByPrimaryKey(num);
     }
 }

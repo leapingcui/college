@@ -2,48 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d431e75-32c3-485b-95f7-97cd53059999" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/college/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/college/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/qijun/goods/goodstype/mapper/GoodsMapperTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsCommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsCommonController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/Goods.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsCommonController.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsCommonController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/Goods.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/GoodsCommonService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/entity/GoodsCommon.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Goods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/GoodsCommon.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/GoodsCommon.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/college/WEB-INF/classes/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/college/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/index.jsp" afterPath="$PROJECT_DIR$/target/college/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstype.jsp" afterPath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstype.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstypeDetail.jsp" afterPath="$PROJECT_DIR$/target/college/view/goods/goodstype/goodstypeDetail.jsp" />
     </list>
     <ignored path="college.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,43 +39,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="goodstypeInsertUI.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeInsertUI.jsp">
+      <file leaf-file-name="goodstype.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8624">
-              <caret line="392" column="21" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
+            <state relative-caret-position="445">
+              <caret line="304" column="52" selection-start-line="304" selection-start-column="52" selection-end-line="304" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsCommonMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="37" column="49" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="352">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1436#1437#0" expanded="true" />
                 <element signature="e#1499#1500#0" expanded="true" />
               </folding>
@@ -109,12 +62,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goodstype.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp">
+      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="256" column="24" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="378">
+              <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+              <folding>
+                <marker date="1488943156731" expanded="true" signature="3361:3579" ph="SELECT s.stu... student" />
+                <marker date="1488943156731" expanded="true" signature="3687:3858" ph="SELECT s.stu... student" />
+                <marker date="1488943156731" expanded="true" signature="3929:4386" ph="INSERT INTO goods... " />
+                <marker date="1488943156731" expanded="true" signature="4457:5465" ph="UPDATE goods... " />
+                <marker date="1488943156731" expanded="true" signature="5548:5595" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/qijun/teachmanage/choosecourse/service/impl/StudentServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/mainFrame.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmanage/choosecourse/insertStudent.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/teachmanage/choosecourse/updateStudent.jsp" />
@@ -177,26 +135,27 @@
         <option value="$PROJECT_DIR$/src/main/webapp/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijun/login/login/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/public_sidebar.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/GoodsCommon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeInsertUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeInsertUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeUpdateUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java" />
       </list>
     </option>
   </component>
@@ -256,6 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -606,48 +568,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="college" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="college" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qijun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goodstype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -760,9 +680,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -791,7 +708,7 @@
       <recent name="D:\git_workplace\college\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoodsCommonMapperTest.testUpdate">
+  <component name="RunManager" selected="Tomcat Server.tomcat9">
     <configuration default="false" name="GoodsMapperTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -805,32 +722,6 @@
       <option name="PACKAGE_NAME" value="com.qijun.goods.goodstype.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.qijun.goods.goodstype.mapper.GoodsMapperTest" />
       <option name="METHOD_NAME" value="testSelectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="GoodsMapperTest.testDeleteGoodsByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qijun.goods.goodstype.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="college" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qijun.goods.goodstype.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.qijun.goods.goodstype.mapper.GoodsMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteGoodsByPrimaryKey" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -909,6 +800,32 @@
       <option name="PACKAGE_NAME" value="com.qijun.goods.goodstype.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.qijun.goods.goodstype.mapper.GoodsCommonMapperTest" />
       <option name="METHOD_NAME" value="testDeleteByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoodsMapperTest.testSelectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qijun.goods.goodstype.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="college" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qijun.goods.goodstype.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.qijun.goods.goodstype.mapper.GoodsMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByPrimaryKey" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1425,18 +1342,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat9" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testSelectAll" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testDeleteGoodsByPrimaryKey" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testInsert" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testUpdate" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testDeleteByPrimaryKey" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testInsert" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testUpdate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testDeleteByPrimaryKey" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testSelectByPrimaryKey" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testUpdate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testDeleteByPrimaryKey" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testInsert" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testDeleteGoodsByPrimaryKey" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testSelectAll" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testSelectByPrimaryKey" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsMapperTest.testSelectAll" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testUpdate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testDeleteByPrimaryKey" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCommonMapperTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -1464,7 +1381,8 @@
       <workItem from="1488713050126" duration="12372000" />
       <workItem from="1488760033365" duration="37550000" />
       <workItem from="1488847505304" duration="4020000" />
-      <workItem from="1488869504254" duration="25352000" />
+      <workItem from="1488869504254" duration="25703000" />
+      <workItem from="1488933546288" duration="10306000" />
     </task>
     <task id="LOCAL-00001" summary="大整改！一个简单的CRUD基本完成。2017-03-02">
       <created>1488428550847</created>
@@ -1480,16 +1398,17 @@
       <option name="project" value="LOCAL" />
       <updated>1488453065364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="解决新增时springmvc封装表单数据时String到float出错，在实体类中类型都写成包装类型&#10;Float、Integer">
+      <created>1488899468974</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488899468974</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoodsCommonMapperTest_testDeleteByPrimaryKey - 2017.03.05 at 22h 33m 10s.xml">
-      <configuration name="GoodsCommonMapperTest.testDeleteByPrimaryKey" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoodsCommonMapperTest_testInsert - 2017.03.05 at 22h 26m 05s.xml">
-      <configuration name="GoodsCommonMapperTest.testInsert" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GoodsCommonMapperTest_testUpdate - 2017.03.05 at 22h 30m 32s.xml">
       <configuration name="GoodsCommonMapperTest.testUpdate" configurationId="JUnit" />
     </history-entry>
@@ -1502,6 +1421,9 @@
     <history-entry file="GoodsMapperTest_testSelectAll - 2017.03.05 at 22h 11m 41s.xml">
       <configuration name="GoodsMapperTest.testSelectAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GoodsMapperTest_testSelectAll - 2017.03.08 at 08h 43m 56s.xml">
+      <configuration name="GoodsMapperTest.testSelectAll" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="GoodsMapperTest_testSelectByPrimaryKey - 2017.03.05 at 22h 00m 38s.xml">
       <configuration name="GoodsMapperTest.testSelectByPrimaryKey" configurationId="JUnit" />
     </history-entry>
@@ -1511,12 +1433,15 @@
     <history-entry file="GoodsMapperTest_testSelectByPrimaryKey - 2017.03.05 at 22h 18m 56s.xml">
       <configuration name="GoodsMapperTest.testSelectByPrimaryKey" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GoodsMapperTest_testSelectByPrimaryKey - 2017.03.08 at 08h 44m 47s.xml">
+      <configuration name="GoodsMapperTest.testSelectByPrimaryKey" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="GoodsMapperTest_testUpdate - 2017.03.05 at 22h 08m 50s.xml">
       <configuration name="GoodsMapperTest.testUpdate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205486000" />
+    <option name="totallyTimeSpent" value="216143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -1530,8 +1455,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48184356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1544,16 +1469,16 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713466" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25286534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27722064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1604,7 +1529,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="大整改！一个简单的CRUD基本完成。2017-03-02" />
     <MESSAGE value="小整改，加入多表" />
-    <option name="LAST_COMMIT_MESSAGE" value="小整改，加入多表" />
+    <MESSAGE value="解决新增时springmvc封装表单数据时String到float出错，在实体类中类型都写成包装类型&#10;Float、Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决新增时springmvc封装表单数据时String到float出错，在实体类中类型都写成包装类型&#10;Float、Integer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1620,7 +1546,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Classes.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/ClassesMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/accounts/service/impl/StudentServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/accounts/mapper/GoodsCommonMapperTest.java" />
@@ -1650,7 +1575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,22 +1699,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -1803,14 +1713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1828,56 +1730,8 @@
         <state relative-caret-position="-98">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
-            <element signature="e#1157#1175#0" expanded="true" />
+            <element signature="e#1157#1175#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#858#859#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,228 +1743,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <marker date="1488886347210" expanded="true" signature="1280:1524" ph="INSERT INTO goods_common... " />
-            <marker date="1488886347210" expanded="true" signature="1601:2023" ph="UPDATE goods... " />
-            <marker date="1488886347210" expanded="true" signature="2105:2168" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1408">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <marker date="1488809955644" expanded="true" signature="3361:3534" ph="SELECT s.stu... student" />
-            <marker date="1488809955644" expanded="true" signature="3642:3813" ph="SELECT s.stu... student" />
-            <marker date="1488809955644" expanded="true" signature="3884:4341" ph="INSERT INTO goods... " />
-            <marker date="1488809955644" expanded="true" signature="4412:5420" ph="UPDATE goods... " />
-            <marker date="1488809955644" expanded="true" signature="5503:5550" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="396">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Goods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2054#2055#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2242#2243#0" expanded="true" />
-            <element signature="e#2272#2273#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2435#2436#0" expanded="true" />
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2686#2687#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
-            <element signature="e#2904#2905#0" expanded="true" />
-            <element signature="e#2942#2943#0" expanded="true" />
-            <element signature="e#2978#2979#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-            <element signature="e#3198#3199#0" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3276#3277#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3362#3363#0" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
-            <element signature="e#3449#3450#0" expanded="true" />
-            <element signature="e#3487#3488#0" expanded="true" />
-            <element signature="e#3548#3549#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-            <element signature="e#3647#3648#0" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3758#3759#0" expanded="true" />
-            <element signature="e#3820#3821#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-            <element signature="e#3898#3899#0" expanded="true" />
-            <element signature="e#3958#3959#0" expanded="true" />
-            <element signature="e#4010#4011#0" expanded="true" />
-            <element signature="e#4047#4048#0" expanded="true" />
-            <element signature="e#4080#4081#0" expanded="true" />
-            <element signature="e#4132#4133#0" expanded="true" />
-            <element signature="e#4176#4177#0" expanded="true" />
-            <element signature="e#4215#4216#0" expanded="true" />
-            <element signature="e#4250#4251#0" expanded="true" />
-            <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#4354#4355#0" expanded="true" />
-            <element signature="e#4398#4399#0" expanded="true" />
-            <element signature="e#4438#4439#0" expanded="true" />
-            <element signature="e#4504#4505#0" expanded="true" />
-            <element signature="e#4562#4563#0" expanded="true" />
-            <element signature="e#4600#4601#0" expanded="true" />
-            <element signature="e#4636#4637#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4810#4811#0" expanded="true" />
-            <element signature="e#4860#4861#0" expanded="true" />
-            <element signature="e#4902#4903#0" expanded="true" />
-            <element signature="e#4948#4949#0" expanded="true" />
-            <element signature="e#4989#4990#0" expanded="true" />
-            <element signature="e#5058#5059#0" expanded="true" />
-            <element signature="e#5118#5119#0" expanded="true" />
-            <element signature="e#5161#5162#0" expanded="true" />
-            <element signature="e#5200#5201#0" expanded="true" />
-            <element signature="e#5264#5265#0" expanded="true" />
-            <element signature="e#5320#5321#0" expanded="true" />
-            <element signature="e#5362#5363#0" expanded="true" />
-            <element signature="e#5400#5401#0" expanded="true" />
-            <element signature="e#5462#5463#0" expanded="true" />
-            <element signature="e#5516#5517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/GoodsCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="256" column="24" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="526">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="254" column="48" selection-start-line="254" selection-start-column="48" selection-end-line="254" selection-end-column="48" />
+        <state relative-caret-position="933">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="275">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qijun/goods/goodstype/mapper/GoodsMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsCommonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="352">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/impl/GoodsCommonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsCommonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <marker date="1488934330765" expanded="true" signature="1280:1524" ph="INSERT INTO goods_common... " />
+            <marker date="1488934330765" expanded="true" signature="1601:2023" ph="UPDATE goods... " />
+            <marker date="1488934330765" expanded="true" signature="2105:2168" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/service/GoodsCommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/GoodsCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeUpdateUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="340" column="82" selection-start-line="340" selection-start-column="82" selection-end-line="340" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="315" column="19" selection-start-line="315" selection-start-column="19" selection-end-line="315" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstypeInsertUI.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8624">
-          <caret line="392" column="21" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="287" column="27" selection-start-line="287" selection-start-column="27" selection-end-line="287" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/goods/goodstype/goodstype.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="304" column="52" selection-start-line="304" selection-start-column="52" selection-end-line="304" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+          <folding>
+            <marker date="1488943156731" expanded="true" signature="3361:3579" ph="SELECT s.stu... student" />
+            <marker date="1488943156731" expanded="true" signature="3687:3858" ph="SELECT s.stu... student" />
+            <marker date="1488943156731" expanded="true" signature="3929:4386" ph="INSERT INTO goods... " />
+            <marker date="1488943156731" expanded="true" signature="4457:5465" ph="UPDATE goods... " />
+            <marker date="1488943156731" expanded="true" signature="5548:5595" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijun/goods/goodstype/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

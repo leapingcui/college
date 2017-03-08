@@ -13,7 +13,7 @@ public interface GoodsCommonService {
 
     int update(GoodsCommon goodsCommon);
 
-    int deleteByPrimaryKey(long gcTypeId);
+    int deleteByPrimaryKey(Long gcTypeId);
 
 
 }

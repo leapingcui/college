@@ -25,7 +25,7 @@ public class GoodsServiceImpl implements GoodsService {
         return goodsMapper.selectAll();
     }
 
-    public Goods selectByPrimaryKey(long gsId) {
+    public Goods selectByPrimaryKey(Long gsId) {
         return goodsMapper.selectByPrimaryKey(gsId);
     }
 
@@ -37,7 +37,7 @@ public class GoodsServiceImpl implements GoodsService {
         return goodsMapper.update(goods);
     }
 
-    public int deleteByPrimaryKey(long gsId) {
+    public int deleteByPrimaryKey(Long gsId) {
         return goodsMapper.deleteByPrimaryKey(gsId);
     }
 }

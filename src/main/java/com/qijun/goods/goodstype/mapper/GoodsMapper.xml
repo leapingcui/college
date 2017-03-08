@@ -88,10 +88,11 @@
         <include refid="Base_Column_List"/>
         FROM goods,goods_common
         WHERE goods.gs_type_id = goods_common.gc_type_id
+        AND goods_common.gc_head_type = '设备'
         ORDER BY goods.gs_type_id
     </select>
 
-    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="long">
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="Long">
         SELECT
         <include refid="Base_Column_List"/>
         FROM goods,goods_common
@@ -134,7 +135,7 @@
         WHERE gs_id = #{gsId}
     </update>
 
-    <delete id="deleteByPrimaryKey" parameterType="long">
+    <delete id="deleteByPrimaryKey" parameterType="Long">
          DELETE FROM goods
         WHERE gs_id = #{gsId}
     </delete>

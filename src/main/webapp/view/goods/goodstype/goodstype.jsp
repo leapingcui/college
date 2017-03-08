@@ -299,8 +299,8 @@
                                             <td>${goods.gsSpeci}</td>
                                             <td>${goods.gsLeftQuantity}</td>
                                             <td><a href="${webRoot}/goodsController/loadGoods.do?gsId=${goods.gsId}">详情</a> </td>
-                                            <td><a href="#">编辑</a> </td>
-                                            <td><a href="#">删除</a> </td>
+                                            <td><a href="${webRoot}/goodsController/updateUI.do?gsId=${goods.gsId}">编辑</a> </td>
+                                            <td><a href="${webRoot}/goodsController/delete.do?gsId=${goods.gsId}">删除</a> </td>
                                         </tr>
                                         </c:forEach>
 

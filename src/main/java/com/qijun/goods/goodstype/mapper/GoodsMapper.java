@@ -12,12 +12,12 @@ public interface GoodsMapper {
 
     List<Goods> selectAll();
 
-    Goods selectByPrimaryKey(long gsId);
+    Goods selectByPrimaryKey(Long gsId);
 
     int insert(Goods goods);
 
     int update(Goods goods);
 
-    int deleteByPrimaryKey(long gsId);
+    int deleteByPrimaryKey(Long gsId);
 
 }
