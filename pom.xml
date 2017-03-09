@@ -253,6 +253,26 @@
             <version>RELEASE</version>
         </dependency>
 
+        <!--springmvc后台表单校验-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.3.4.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>3.3.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
+        </dependency>
+
+
     </dependencies>
 
     <!--下面这个resouces为了生成的*mapper.xml文件在java/src/com.*文件夹中能够访问到

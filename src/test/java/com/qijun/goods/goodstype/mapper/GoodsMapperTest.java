@@ -31,6 +31,7 @@ public class GoodsMapperTest extends BaseTest{
         System.out.println("物品对象啊啊啊" + goods);
     }
 
+/*
     @Test
     public void testInsert() throws Exception {
         GoodsCommon goodsCommon = new GoodsCommon();
@@ -68,5 +69,6 @@ public class GoodsMapperTest extends BaseTest{
         goodsMapper.deleteByPrimaryKey(num);
 
     }
+*/
 
 }

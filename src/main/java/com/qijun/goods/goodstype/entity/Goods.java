@@ -1,8 +1,11 @@
 package com.qijun.goods.goodstype.entity;
 
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 /**
@@ -16,7 +19,10 @@ public class Goods {
     private GoodsCommon goodsCommon;        //在表中字段gs_type_id
                                             //在表goods中通过gs_type_id,指向goods_common的gc_type_id
 
+    @Size(min = 1,max = 6,message = "{goods.gsTrueId.length.error}")
     private String gsTrueId;                //物品id
+
+    @NotEmpty(message = "{goods.gsSpeci.is.null}")
     private String gsSpeci;                 //物品规格specification
 
     private Float gsTotalQuantity ;          //总数量

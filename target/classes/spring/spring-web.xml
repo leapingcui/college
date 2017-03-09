@@ -17,21 +17,8 @@
 		(1)自动注册DefaultAnootationHandlerMapping,AnotationMethodHandlerAdapter 
 		(2)提供一些列：数据绑定，数字和日期的format @NumberFormat, @DateTimeFormat, xml,json默认读写支持 
 	-->
-	<mvc:annotation-driven />
+	<mvc:annotation-driven validator="validator"></mvc:annotation-driven>
 
-	<!-- 2.(方式一)静态资源默认servlet配置
-		(1)加入对静态资源的处理：js,gif,png
-		(2)允许使用"/"做整体映射
-	 -->
-	 <!--<mvc:default-servlet-handler/>-->
-
-	<!-- 2.(方式二)静态资源映射-->
-	<!--
-    http://perfy315.iteye.com/blog/2008763
-    mapping="/js/**"
-    表示当浏览器有静态资源请求的时候，并且请求url路径中带有：/js/，则这个资源跑到webapp目录下的/statics/js/去找
-    比如我们在 JSP 中引入一个 js 文件：src="${webRoot}/js/jQuery-core/jquery-1.6.1.min.js
-    -->
 <!--
 	<mvc:resources mapping="/css/**" location="/statics/css/"/>
 	<mvc:resources mapping="/js/**" location="/statics/js/"/>
@@ -45,6 +32,38 @@
 	 	<property name="prefix" value="/" />
 	 	<property name="suffix" value=".jsp" />
 	 </bean>
+
+	<!-- 校验器 -->
+	<bean id="validator"
+		  class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<!-- 校验器-->
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+		<!-- 指定校验使用的资源文件，如果不指定则默认使用classpath下的ValidationMessages.properties -->
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+	<!-- 校验错误信息配置文件 -->
+	<bean id="messageSource"
+		  class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+
+		<!-- 资源文件名-->
+
+		<property name="basenames">
+			<list>
+				<value>classpath:validationMessages</value>
+			</list>
+		</property>
+		<!-- 资源文件编码格式 -->
+		<property name="defaultEncoding" value="utf-8"/>
+		<!--
+                <property name="fileEncodings">
+                    <props>
+                        <prop key="classpath:validationMessages">UTF-8</prop>
+                    </props>
+                </property>
+        -->
+		<!-- 对资源文件内容缓存时间，单位秒 -->
+		<property name="cacheSeconds" value="120" />
+	</bean>
 
 
 

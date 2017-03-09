@@ -11,6 +11,7 @@ import sun.util.resources.cldr.ga.LocaleNames_ga;
  */
 public class GoodsCommonMapperTest extends BaseTest {
 
+/*
     @Autowired
     private GoodsCommonMapper goodsCommonMapper;
 
@@ -37,4 +38,5 @@ public class GoodsCommonMapperTest extends BaseTest {
         Long num = (long) 5;
         goodsCommonMapper.deleteByPrimaryKey(num);
     }
+*/
 }

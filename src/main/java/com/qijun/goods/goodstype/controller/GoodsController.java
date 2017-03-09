@@ -8,6 +8,10 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -47,7 +51,11 @@ public class GoodsController {
     }
 
     @RequestMapping("/insert.do")
-    public String insert(Goods goods){
+    public String insert(@Validated @ModelAttribute("goods") Goods goods, BindingResult result,Model model) throws Exception{
+        if (result.hasErrors()) {
+            model.addAttribute("errors", result);
+            return "forward:insertUI.do";
+        }
         logger.info("接受到的数据:" + goods);
         GoodsCommon goodsCommon = goods.getGoodsCommon();
         logger.info("goodsCommon哈哈:" + goodsCommon);
