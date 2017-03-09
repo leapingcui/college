@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
@@ -24,12 +26,14 @@ public class LoginController {
     private static final Logger logger = Logger.getLogger(LoginController.class);
 
     @RequestMapping(value = "/login.do")
-    public String login(Model model, String empId, String empPwd) {
+    public String login(Model model, String empId, String empPwd, HttpServletRequest request) {
         logger.info("接收到的工号" + empId);
         logger.info("接收到的密码" + empPwd);
         List<Emp> emps = empService.selectAll();
         for (Emp emp : emps) {
             if (emp.getEmpId().equals(empId) && emp.getEmpPwd().equals(empPwd)) {
+                HttpSession session = request.getSession();
+                session.setAttribute("empId",empId);
                 return "index";
             }
         }

@@ -54,17 +54,16 @@
 		</property>
 		<!-- 资源文件编码格式 -->
 		<property name="defaultEncoding" value="utf-8"/>
-		<!--
-                <property name="fileEncodings">
-                    <props>
-                        <prop key="classpath:validationMessages">UTF-8</prop>
-                    </props>
-                </property>
-        -->
 		<!-- 对资源文件内容缓存时间，单位秒 -->
 		<property name="cacheSeconds" value="120" />
 	</bean>
 
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.qijun.login.login.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
 
 
 
