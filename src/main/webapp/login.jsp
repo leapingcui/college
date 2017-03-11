@@ -13,10 +13,10 @@
 </head>
 <body>
 <h1>登录</h1>
-<p>${errors}</p>
+<p>${message}</p>
 <form action="${webRoot}/loginController/login.do" method="post">
-    工号:<input type="text" id="empId" name="empId" value="${empId}" /><br>
-    密码:<input type="password" id="empPwd" name="empPwd" value="${empPwd}" /><br>
+    工号:<input type="text" id="empId" name="empId" value="${empFromForm.empId}" /><br>
+    密码:<input type="password" id="empPwd" name="empPwd" value="${empFromForm.empPwd}" /><br>
     <input type="submit" value="登录"/>
     <input type="reset" value="重新填写"/>
 </form>

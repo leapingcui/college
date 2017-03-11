@@ -58,13 +58,13 @@
 		<property name="cacheSeconds" value="120" />
 	</bean>
 
+	<!--配置登录拦截器(相当于Javaweb的filter)-->
 	<mvc:interceptors>
 		<mvc:interceptor>
 			<mvc:mapping path="/**"/>
 			<bean class="com.qijun.login.login.interceptor.LoginInterceptor"/>
 		</mvc:interceptor>
 	</mvc:interceptors>
-
 
 
 </beans>
