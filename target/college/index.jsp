@@ -253,7 +253,7 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>这里是登录成功后的主页面</h1>
-                    <h2>你好${empId}</h2>
+                    <h2>你好${emp.empName}</h2>
                 </section>
                 <!-- /.content -->
             </div>

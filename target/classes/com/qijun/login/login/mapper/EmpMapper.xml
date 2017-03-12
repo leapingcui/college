@@ -16,7 +16,7 @@
         ORDER BY emp_id
     </select>
 
-    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="int">
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="String">
         SELECT
         emp_id,emp_pwd,emp_name,emp_sex
         FROM emp
@@ -37,7 +37,7 @@
         WHERE `emp_id` = #{empId}
     </update>
 
-    <delete id="deleteByPrimaryKey" parameterType="int">
+    <delete id="deleteByPrimaryKey" parameterType="String">
         DELETE FROM emp
         WHERE `emp_id` = #{empId}
     </delete>

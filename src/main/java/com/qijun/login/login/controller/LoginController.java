@@ -27,6 +27,7 @@ public class LoginController {
 
     private static final Logger logger = Logger.getLogger(LoginController.class);
 
+    //Emp empFromForm中不是Emp emp 所以要在前面加@ModelAttribute("empFromForm")
     @RequestMapping(value = "/login.do")
     public String login(Model model, @ModelAttribute("empFromForm") Emp empFromForm, HttpServletRequest request) throws Exception {
         logger.info("接收到的工号" + empFromForm.getEmpId());

@@ -244,8 +244,6 @@
               </span>
                 </div>
             </form>
-            <!-- js解析el表达式   -->
-            <input name="root" id="root" type="hidden" value="${webRoot}"/>
             <script type="text/javascript" src="${webRoot}/public_sidebar.js"></script>
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
